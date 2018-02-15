@@ -1,0 +1,82 @@
+body {
+    background-image: url(../images/background.png);
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+
+#header_content {
+    width: 960px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#main {
+    width: 960px;
+    margin: auto;
+}
+
+#name_plate {
+    font-family: Georgia, Times , serif;
+    color: #ffffff;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    background-color: #4aaaa5;
+    width: 210px;
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+#nav_bar {
+    background-color: #ffffff;
+}
+
+#link_bar {
+    font-size: 15px;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #777777;
+    text-decoration: none;
+}
+
+.page_links {
+    color: #777777;
+    text-decoration: none;
+}
+
+/* index.html styling*/
+
+#main_section {
+    width: 625px;
+    padding: 25px;
+    background-color: #ffffff;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#about_me_tag {
+    font-family: Georgia, Times , serif;
+    color: #4aaaa5;
+    font-size: 25px;
+    font-weight: bold;
+    padding-bottom: 25px;
+    border-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: lightgray;
+    margin-bottom: 25px;
+}
+
+#self_pic{
+    float: left;
+    margin-right: 25px;
+}
+
+#main_content {
+    line-height: 2;
+}
+
+#sidebar {
+    width: 270px;
+}
